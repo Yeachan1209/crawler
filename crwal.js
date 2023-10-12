@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 
 async function fetchAnnouncements(pageNumber) {
-  const baseUrl = 'https://www.ansan.ac.kr/www/board/11/';
+  const baseUrl = 'https://www.snu.ac.kr/snunow/notice/genernal?page=';
   const url = `${baseUrl}${pageNumber}`;
 
   try {
@@ -17,7 +17,7 @@ async function fetchAnnouncements(pageNumber) {
     // 제목, 링크, 작성일 가져오는 코드
     $('.text-left a').each((index, element) => {
       const title = $(element).text().trim();
-      const link = `https://www.ansan.ac.kr${$(element).attr('href')}`;
+      const link = `https://www.snu.ac.kr/${$(element).attr('href')}`;
 
       // 작성일 가져오는 코드
       const $parentRow = $(element).closest('tr');
@@ -37,16 +37,9 @@ async function fetchAnnouncements(pageNumber) {
     }
     const filePath = path.join(outputDir, `announcements_page_${pageNumber}.txt`);
     fs.writeFileSync(filePath, JSON.stringify(announcements, null, 2));
-
-    if (pageNumber < 3) { 
-      await fetchAnnouncements(pageNumber + 1);
-    }
   } catch (error) {
     console.error('에러 발생:', error);
   }
 }
 
-fetchAnnouncements(1);
-
-// 되도록 많은 사이트를 기준으로 잡아보기
-// 일단 나중에, 회원가입, 메모기능 등 기능 구현을 먼저
+fetchAnnouncements();

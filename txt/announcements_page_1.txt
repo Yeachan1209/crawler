@@ -1,0 +1,52 @@
+[
+  {
+    "title": "2023학년도 2학기 강의평가(중간) 실시 안내",
+    "link": "https://www.ansan.ac.kr/www/boardview/11/3535",
+    "date": "2023.10.06 17:15"
+  },
+  {
+    "title": "2023학년도 2학기 휴학 안내(출입안내 추가 8.31.)",
+    "link": "https://www.ansan.ac.kr/www/boardview/11/3480",
+    "date": "2023.07.14 16:30"
+  },
+  {
+    "title": "2023학년도 2학기 천원의 아침밥 운영 안내",
+    "link": "https://www.ansan.ac.kr/www/boardview/11/3507",
+    "date": "2023.08.29 11:07"
+  },
+  {
+    "title": "모바일 학생증 발급 절차 안내",
+    "link": "https://www.ansan.ac.kr/www/boardview/11/3259",
+    "date": "2022.03.16 15:17"
+  },
+  {
+    "title": "2023학년도 장애대학생 지원 계획 안내",
+    "link": "https://www.ansan.ac.kr/www/boardview/11/3516",
+    "date": "2023.09.07 12:35"
+  },
+  {
+    "title": "「2023 경기인디뮤직페스티벌」개최 안내",
+    "link": "https://www.ansan.ac.kr/www/boardview/11/3538",
+    "date": "2023.10.12 11:01"
+  },
+  {
+    "title": "2023 안산 유니온 페스티벌",
+    "link": "https://www.ansan.ac.kr/www/boardview/11/3537",
+    "date": "2023.10.11 10:58"
+  },
+  {
+    "title": "2024학년도 신입생 모집 면접문항 안내",
+    "link": "https://www.ansan.ac.kr/www/boardview/11/3536",
+    "date": "2023.10.06 23:58"
+  },
+  {
+    "title": "2023학년도 2학기 강의평가(중간) 실시 안내",
+    "link": "https://www.ansan.ac.kr/www/boardview/11/3535",
+    "date": "2023.10.06 17:15"
+  },
+  {
+    "title": "2024학년도 수시1차 면접예약안내",
+    "link": "https://www.ansan.ac.kr/www/boardview/11/3534",
+    "date": "2023.10.06 13:46"
+  }
+]
